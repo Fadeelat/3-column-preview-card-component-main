@@ -10,7 +10,7 @@ body{
     justify-content: center;
     height: px;
     width: 1000px;
-    margin-left: 290px;
+    margin-left: 120px;
     font-size: 25px;
     color: white;
     font-family: sans-serif;
@@ -90,4 +90,18 @@ border-radius: 20px;
     color: white;
     border: white solid;
     cursor: pointer;
+}
+@media screen and (max-width:900px){
+    .design{
+        display: inline-block;
+        margin-top: 50px;
+        justify-content: center;
+        height: px;
+        width: 375px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 25px;
+        color: white;
+        font-family: sans-serif;
+}
 }
